@@ -1,0 +1,16 @@
+HELP.md
+### Gradle temporary files ###
+.gradle
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Build project files ###
+build/
+/**/out/**/
+!**/src/main/**/build/
+!**/src/test/**/build/
+target/*
