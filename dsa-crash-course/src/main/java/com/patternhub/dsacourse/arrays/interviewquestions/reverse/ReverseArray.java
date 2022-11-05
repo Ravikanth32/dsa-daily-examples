@@ -1,4 +1,4 @@
-package com.patternhub.dsacourse.arrays.interviewquestions;
+package com.patternhub.dsacourse.arrays.interviewquestions.reverse;
 
 import java.util.Arrays;
 
