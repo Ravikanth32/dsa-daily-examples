@@ -1,4 +1,4 @@
-package com.patternhub.dsacourse.arrays.interviewquestions;
+package com.patternhub.dsacourse.arrays.codingproblems;
 
 import java.util.Arrays;
 

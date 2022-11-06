@@ -1,4 +1,4 @@
-package com.patternhub.dsacourse.arrays.searching.binarysearch.codingproblems;
+package com.patternhub.dsacourse.arrays.searching.binarysearch.codingproblems.mountain;
 
 /**
  * @author ravikant_kondepati

@@ -1,11 +1,11 @@
-package com.patternhub.dsacourse.arrays.interviewquestions.reverse;
+package com.patternhub.dsacourse.arrays.codingproblems.reverse;
 
 import java.util.Arrays;
 
 /**
  * @author ravikant_kondepati
  */
-public class ReverseArrayFromKthIndex {
+public class RotateArrayFromKthIndex {
     public static void main(String[] args) {
         int[] data = {1, 2, 3, 4, 5};
         int k = 3;

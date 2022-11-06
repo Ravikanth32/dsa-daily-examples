@@ -1,4 +1,4 @@
-package com.patternhub.dsacourse.arrays.interviewquestions;
+package com.patternhub.dsacourse.arrays.codingproblems.reverse;
 
 public class ArraysRotation {
     public static void main(String[] args) {

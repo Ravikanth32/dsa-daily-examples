@@ -9,18 +9,19 @@ import java.util.stream.Collectors;
 public class WordOccurrenceExample {
 
     public static void main(String[] args) {
+        /*
+        Problem: Find number of duplicate of word in string
+         */
         String sentence = "Ram went to home and completed Ram home work";
         List<String> words = Arrays.asList(sentence.split(" "));
-//        Map<String, Long> wordsOccurrence = findWordOccurrence(words);
+//        Map<String, Long> wordsOccurrence = findWordOccurrenceWithStreams(words);
         Map<String, Long> wordsOccurrence = findWordOccurrenceInOldFashion(words);
         wordsOccurrence.forEach((key, value) -> System.out.println(key + " " + value));
     }
 
-    private static Map<String, Long> findWordOccurrence(List<String> words) {
+    private static Map<String, Long> findWordOccurrenceWithStreams(List<String> words) {
         return words.stream().
                 collect(Collectors.groupingBy(word -> word, Collectors.counting()));
-
-
     }
 
     private static Map<String, Long> findWordOccurrenceInOldFashion(List<String> words) {

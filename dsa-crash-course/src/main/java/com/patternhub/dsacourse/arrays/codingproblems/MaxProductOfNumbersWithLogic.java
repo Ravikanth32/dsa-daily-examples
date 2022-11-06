@@ -1,7 +1,6 @@
-package com.patternhub.dsacourse.arrays.interviewquestions;
+package com.patternhub.dsacourse.arrays.codingproblems;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * @author ravikant_kondepati
